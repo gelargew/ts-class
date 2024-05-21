@@ -1,4 +1,6 @@
-const player = {
+type Player = Record<string, string | number>;
+
+const player: Player = {
   name: "Matt",
 };
 
